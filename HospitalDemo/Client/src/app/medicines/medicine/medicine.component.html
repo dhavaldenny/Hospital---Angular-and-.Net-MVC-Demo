@@ -1,0 +1,29 @@
+<form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)">
+    <input  type="hidden" name="MedID" #MedID="ngModel"  [(ngModel)]="service.formData.MedID"/>
+  <div class="form-group">
+    <label>Name</label>
+    <input class="form-control" #Name="ngModel" name="Name" [(ngModel)]="service.formData.Name" required>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
+      <label>Manufacturer</label>
+      <input class="form-control" #Manufacturer="ngModel" name="Manufacturer" [(ngModel)]="service.formData.Manufacturer">
+  </div>
+    <div class="form-group col-md-6 ">
+        <label>Type</label>
+        <input class="form-control" #Type="ngModel" name="Type" [(ngModel)]="service.formData.Type">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-1">
+      <input type="checkbox" class="form-control"  #PrescriptionRequired="ngModel" name="PrescriptionRequired" [(ngModel)]="service.formData.PrescriptionRequired">
+    </div>
+      <div class="form-group col-md-6">
+      <label> Prescription Required</label>
+    </div>
+  </div>
+    <div >
+      <button class="submit btn btn-lg btn-block" [disabled]="form.invalid" type="submit" value="Submit">Submit</button>
+    </div>
+
+</form>

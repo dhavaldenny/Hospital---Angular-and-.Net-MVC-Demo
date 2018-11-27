@@ -1,0 +1,9 @@
+<table class="table table-hover" style="margin-top:30px">
+  <tr *ngFor="let med of service.list" >
+    <td (click)="populateForm(med)">{{med.Name}}</td>
+    <td (click)="populateForm(med)">{{med.Manufacturer}}</td>
+    <td (click)="populateForm(med)">{{med.Type}}</td>
+    <td (click)="populateForm(med)">{{med.PrescriptionRequired}}</td>
+    <td (click)="deleteMed(med.MedID)"><button class="btn btn-sm btn-outline-danger">X</button></td>
+  </tr>
+</table>

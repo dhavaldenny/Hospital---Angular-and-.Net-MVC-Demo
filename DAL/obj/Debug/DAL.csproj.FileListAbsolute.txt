@@ -1,0 +1,12 @@
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\bin\Debug\DAL.dll.config
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\bin\Debug\DAL.dll
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\bin\Debug\DAL.pdb
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\bin\Debug\EntityFramework.dll
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\bin\Debug\EntityFramework.xml
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\obj\Debug\DAL.dll
+E:\Plan B\Projects\Hospital demo\HospitalDemo\DAL\obj\Debug\DAL.pdb
